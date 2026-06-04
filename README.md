@@ -17,81 +17,11 @@ Building software that connects business operations, industrial systems, and rea
 
 ## 👨‍💻 About Me
 
-```javascript
-const amine = {
-    location: "Tunisia 🇹🇳",
+Industrial Software Engineer based in Tunisia, specialized in building digital platforms that connect industrial operations, business workflows, and real-time data.
 
-    role: [
-        "Industrial Software Engineer",
-        "SCADA Developer",
-        "ERP / CRM Consultant",
-        "Full-Stack Developer"
-    ],
+My work combines SCADA development, ERP/CRM implementation, and full-stack engineering to deliver reliable systems for operations, monitoring, automation, and decision support.
 
-    specialties: [
-        "Industrial Monitoring",
-        "SCADA Platforms",
-        "ERP Systems",
-        "CRM Solutions",
-        "Process Digitalization",
-        "Business Automation"
-    ],
-
-    currentFocus: [
-        "Industrial AI",
-        "Energy Optimization",
-        "Predictive Analytics",
-        "Real-Time Monitoring",
-        "ERP Integration"
-    ],
-
-    technologies: {
-        backend: [
-            "Laravel",
-            "PHP",
-            "REST APIs",
-            "Node.js"
-        ],
-
-        frontend: [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "Flutter"
-        ],
-
-        databases: [
-            "PostgreSQL",
-            "MySQL",
-            "Redis"
-        ],
-
-        infrastructure: [
-            "IIS",
-            "Windows Server",
-            "Linux",
-            "Docker"
-        ],
-
-        industrial: [
-            "SCADA",
-            "PLC Integration",
-            "Telemetry",
-            "Real-Time Data Acquisition"
-        ],
-
-        ai: [
-            "OpenAI",
-            "Local LLMs",
-            "Ollama",
-            "LangChain",
-            "Industrial AI"
-        ]
-    },
-
-    motto: "Connect machines, data and people."
-};
-```
+Current focus areas include Industrial AI, predictive analytics, energy optimization, and practical integration between field systems and enterprise software.
 
 ---
 
@@ -246,18 +176,3 @@ https://www.linkedin.com/in/fellah-amine/
 💻 GitHub:
 https://github.com/fellahamin
 
----
-
-## 🌐 One-Page Portfolio
-
-This repository now includes a one-page portfolio website built from the profile content above.
-
-### Files
-
-- `index.html`
-- `styles.css`
-- `script.js`
-
-### Run locally
-
-Open `index.html` directly in your browser, or serve the folder with any static server.

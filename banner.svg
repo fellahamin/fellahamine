@@ -1,0 +1,78 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08121f"/>
+      <stop offset="50%" stop-color="#10253f"/>
+      <stop offset="100%" stop-color="#0a1625"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#00ff99"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- Subtle Grid -->
+  <g opacity="0.05">
+    <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200"
+          stroke="#ffffff"/>
+    <path d="M100 0V320M200 0V320M300 0V320M400 0V320M500 0V320M600 0V320M700 0V320M800 0V320M900 0V320M1000 0V320M1100 0V320"
+          stroke="#ffffff"/>
+  </g>
+
+  <!-- Accent Line -->
+  <line x1="250" y1="95" x2="950" y2="95"
+        stroke="url(#accent)"
+        stroke-width="3"
+        filter="url(#glow)"/>
+
+  <!-- Name -->
+  <text x="600"
+        y="155"
+        fill="#ffffff"
+        font-size="56"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial"
+        font-weight="700"
+        letter-spacing="2">
+    AMINE FELLAH
+  </text>
+
+  <!-- Title -->
+  <text x="600"
+        y="200"
+        fill="#8ecfff"
+        font-size="24"
+        text-anchor="middle"
+        font-family="Segoe UI, Arial">
+    Industrial Software Engineer • SCADA Architect • ERP/CRM Solutions
+  </text>
+
+  <!-- Technologies -->
+  <text x="600"
+        y="245"
+        fill="#5fc9ff"
+        font-size="16"
+        text-anchor="middle"
+        font-family="Consolas">
+    Laravel • PostgreSQL • SCADA • Industrial Automation • AI • DevOps
+  </text>
+
+  <!-- Bottom Accent -->
+  <line x1="350" y1="275" x2="850" y2="275"
+        stroke="url(#accent)"
+        stroke-width="2"
+        opacity="0.8"/>
+</svg>

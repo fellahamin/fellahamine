@@ -349,6 +349,13 @@ p {
     color: var(--muted);
 }
 
+.contact-note {
+    margin-top: 0.7rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid var(--accent);
+    color: var(--text) !important;
+}
+
 .xp-list {
     display: grid;
     gap: 0.9rem;

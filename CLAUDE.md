@@ -24,9 +24,8 @@ A static site with one HTML entry point and assets split into folders:
 - [assets/css/styles.css](assets/css/styles.css) — all styling. Design tokens (colors, radius, shadow) live in the `:root` CSS variables block at the top; the single responsive breakpoint is `@media (max-width: 860px)` near the bottom, plus a `prefers-reduced-motion` block.
 - [assets/js/script.js](assets/js/script.js) — the only JS: reveal-on-scroll `IntersectionObserver` (add the `reveal` class to animate a new section in), nav scroll-spy, the projects slider arrows, and the project detail modal.
 - [assets/img/](assets/img/) — `fellah-amine.jpg` (hero portrait) and `banner.svg` (social `og:image`).
-- [resume/Fellah-Amine-Resume.pdf](resume/Fellah-Amine-Resume.pdf) — the published CV, linked from the hero "Download Resume" button.
 
-[README.md](README.md) is the GitHub profile-style landing page (separate audience from the site itself). The resume `.md` source is intentionally gitignored — only the built PDF is published.
+[README.md](README.md) is the GitHub profile-style landing page (separate audience from the site itself). The resume/CV is intentionally **not** in the repo (gitignored) — the site asks visitors to contact for it; there is no download link.
 
 ## Conventions
 

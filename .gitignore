@@ -1,0 +1,11 @@
+# Resume source (only the built PDF is published)
+*Resume*.md
+Fellah Amine - Resume.*
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/

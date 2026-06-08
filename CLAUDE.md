@@ -18,14 +18,15 @@ The repo lives under a Laragon webroot (`c:\laragon\www\fellahamine`), so Larago
 
 ## Structure
 
-The whole site is four files at the repo root:
+A static site with one HTML entry point and assets split into folders:
 
-- [index.html](index.html) — all page content as semantic `<section>`s (hero, about, work, projects, stack, contact). Content is hardcoded inline; edit the markup directly to change copy.
-- [styles.css](styles.css) — all styling. Design tokens (colors, radius, shadow) live in the `:root` CSS variables block at the top; the single responsive breakpoint is `@media (max-width: 860px)` at the bottom.
-- [script.js](script.js) — the only JS: an `IntersectionObserver` that adds the `is-visible` class to every `.reveal` element as it scrolls into view (staggered by `transitionDelay`). To make a new section animate in, give it the `reveal` class.
-- [banner.svg](banner.svg) — README banner asset.
+- [index.html](index.html) — all page content as semantic `<section>`s (hero, about, experience, work, projects, education, contact). Content is hardcoded inline; edit the markup directly to change copy. The Featured Projects cards show title + tags only and open a detail modal on click.
+- [assets/css/styles.css](assets/css/styles.css) — all styling. Design tokens (colors, radius, shadow) live in the `:root` CSS variables block at the top; the single responsive breakpoint is `@media (max-width: 860px)` near the bottom, plus a `prefers-reduced-motion` block.
+- [assets/js/script.js](assets/js/script.js) — the only JS: reveal-on-scroll `IntersectionObserver` (add the `reveal` class to animate a new section in), nav scroll-spy, the projects slider arrows, and the project detail modal.
+- [assets/img/](assets/img/) — `fellah-amine.jpg` (hero portrait) and `banner.svg` (social `og:image`).
+- [resume/Fellah-Amine-Resume.pdf](resume/Fellah-Amine-Resume.pdf) — the published CV, linked from the hero "Download Resume" button.
 
-[README.md](README.md) is the GitHub profile-style landing page (separate audience from the site itself). The two `Fellah Amine - Resume.*` files are the CV; they are untracked and not part of the site.
+[README.md](README.md) is the GitHub profile-style landing page (separate audience from the site itself). The resume `.md` source is intentionally gitignored — only the built PDF is published.
 
 ## Conventions
 
